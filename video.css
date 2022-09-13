@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#video-section{
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-control{
+    width: 400px;
+    height: 250px;
+}
+
+.v-one{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.loader{
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+
+
+
+
+
